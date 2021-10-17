@@ -51,7 +51,7 @@ body {
 	-moz-border-radius: 50%;
 	-o-border-radius: 50%;
 	border-radius: 50%;
-  background-color: rgb(61, 95, 167);
+  background-color: rgb(61, 98, 167);
 
 }
 
@@ -73,7 +73,7 @@ body {
 
 .wrapper label:focus {
   color: rgb(61, 95, 167);
-  background-color: rgb(61, 95, 167);
+  background-color: rgb(61, 98, 167);
 }
 
 .wrapper label:active {
