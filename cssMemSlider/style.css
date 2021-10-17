@@ -52,17 +52,12 @@ body {
 	-o-border-radius: 50%;
 	border-radius: 50%;
   background-color: rgb(61, 95, 167);
-	/* -webkit-transition: background ease-in-out .5s;
-	-moz-transition: background ease-in-out .5s;
-	-o-transition: background ease-in-out .5s;
-	transition: background ease-in-out .5s; */
+
 }
 
 
 .wrapper label:after {
-  /* background-color: #ddd;
-	border: 2px solid #ddd; */
-	content: " ";
+  	content: " ";
 	display: block;
 	height: 12px;
 	left: -4px;
@@ -113,7 +108,6 @@ body {
 	opacity: 0;
 	position: fixed;
 	width: inherit;
-	/* z-index: 0; */
 	-webkit-transform: scale(1.5);
 	-moz-transform: scale(1.5);
 	-o-transform: scale(1.5);
@@ -161,15 +155,6 @@ body {
 }
 
 
-.big-area1,
-.big-area2,
-.big-area3,
-.big-area4 {
-  padding-bottom: 25px;
-  cursor: pointer;
-  /* border: 1px solid #ffffff; */
-}
-
 .title {
   padding-top: 20px;
   color: #ffffff;
@@ -179,7 +164,6 @@ body {
 @media (max-device-width: 320px) {
   .title {
     padding-top: 80px;
-    /*margin-top: 200px;*/
     color: #ffffff;
     font-size: 16px;
     margin: auto;
@@ -187,13 +171,9 @@ body {
   
   .controls {
     display: flex;
-    /*right: calc((100% - 400px) / 2);*/
     right: 50%;
     margin-top: 15px;
-    /* margin-left: auto;
-    margin-right: auto; */
     left: 25%;
-    /*margin-left: 52px; */
     position: fixed;
     justify-content: space-between;
   
